@@ -5,7 +5,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/callistaenterprise/goblog/accountservice/dbclient"
+	"microservices/dbclient"
+
 	"github.com/gorilla/mux"
 )
 

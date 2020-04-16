@@ -6,8 +6,9 @@ import (
 	"log"
 	"strconv"
 
+	"microservices/model"
+
 	"github.com/boltdb/bolt"
-	"github.com/callistaenterprise/goblog/accountservice/model"
 )
 
 // IBoltClient is ...

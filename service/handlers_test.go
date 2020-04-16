@@ -6,8 +6,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/callistaenterprise/goblog/accountservice/dbclient"
-	"github.com/callistaenterprise/goblog/accountservice/model"
+	"microservices/dbclient"
+	"microservices/model"
+
 	. "github.com/smartystreets/goconvey/convey"
 )
 
